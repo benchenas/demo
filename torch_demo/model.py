@@ -1,5 +1,6 @@
 from torch import nn
 from torch.nn import Sequential, Conv2d, MaxPool2d, Flatten, Linear
+import numpy as np
 
 
 class ExModel(nn.Module):
@@ -20,4 +21,6 @@ class ExModel(nn.Module):
     def forward(self, x):
         x = self.seq(x)
         return x
+net = ExModel()
+x = np.ones(3,32,32)
 
