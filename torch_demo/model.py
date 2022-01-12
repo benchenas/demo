@@ -23,4 +23,5 @@ class ExModel(nn.Module):
         return x
 net = ExModel()
 x = np.ones(3,32,32)
-
+out = net(x)
+print(out.shape())
