@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="demo",
+    name="benchENAS",
     packages=setuptools.find_packages(),
     include_package_data=True,
     version="1.0.1",
