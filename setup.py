@@ -1,8 +1,5 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name="demo",
     packages=setuptools.find_packages(),
@@ -11,8 +8,7 @@ setuptools.setup(
     author="xiaoyang",
     author_email="yangx9810@163.com",
     description="A method of benchmark",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description='long_description',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
